@@ -10,5 +10,6 @@ namespace HorseRaceApi.Models
         public List<Horse> horses { get; set; }
         private long RaceId { get; set; }
         public RaceResults results { get; set; }
+        
     }
 }
