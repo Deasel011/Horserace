@@ -1,0 +1,13 @@
+D:\gitRepos\others\Horserace\HorseRaceApiCore\bin\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.deps.json
+D:\gitRepos\others\Horserace\HorseRaceApiCore\bin\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.runtimeconfig.json
+D:\gitRepos\others\Horserace\HorseRaceApiCore\bin\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.runtimeconfig.dev.json
+D:\gitRepos\others\Horserace\HorseRaceApiCore\bin\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.dll
+D:\gitRepos\others\Horserace\HorseRaceApiCore\bin\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.pdb
+D:\gitRepos\others\Horserace\HorseRaceApiCore\obj\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.csproj.CoreCompileInputs.cache
+D:\gitRepos\others\Horserace\HorseRaceApiCore\obj\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.RazorAssemblyInfo.cache
+D:\gitRepos\others\Horserace\HorseRaceApiCore\obj\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.RazorAssemblyInfo.cs
+D:\gitRepos\others\Horserace\HorseRaceApiCore\obj\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.AssemblyInfoInputs.cache
+D:\gitRepos\others\Horserace\HorseRaceApiCore\obj\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.AssemblyInfo.cs
+D:\gitRepos\others\Horserace\HorseRaceApiCore\obj\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.RazorTargetAssemblyInfo.cache
+D:\gitRepos\others\Horserace\HorseRaceApiCore\obj\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.dll
+D:\gitRepos\others\Horserace\HorseRaceApiCore\obj\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.pdb

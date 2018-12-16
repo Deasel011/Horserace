@@ -1,0 +1,10 @@
+D:\gitRepos\others\Horserace\Gibraltar\bin\Debug\netcoreapp2.1\Gibraltar.deps.json
+D:\gitRepos\others\Horserace\Gibraltar\bin\Debug\netcoreapp2.1\Gibraltar.runtimeconfig.json
+D:\gitRepos\others\Horserace\Gibraltar\bin\Debug\netcoreapp2.1\Gibraltar.runtimeconfig.dev.json
+D:\gitRepos\others\Horserace\Gibraltar\bin\Debug\netcoreapp2.1\Gibraltar.dll
+D:\gitRepos\others\Horserace\Gibraltar\bin\Debug\netcoreapp2.1\Gibraltar.pdb
+D:\gitRepos\others\Horserace\Gibraltar\obj\Debug\netcoreapp2.1\Gibraltar.csproj.CoreCompileInputs.cache
+D:\gitRepos\others\Horserace\Gibraltar\obj\Debug\netcoreapp2.1\Gibraltar.AssemblyInfoInputs.cache
+D:\gitRepos\others\Horserace\Gibraltar\obj\Debug\netcoreapp2.1\Gibraltar.AssemblyInfo.cs
+D:\gitRepos\others\Horserace\Gibraltar\obj\Debug\netcoreapp2.1\Gibraltar.dll
+D:\gitRepos\others\Horserace\Gibraltar\obj\Debug\netcoreapp2.1\Gibraltar.pdb
