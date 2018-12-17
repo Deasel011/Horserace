@@ -42,7 +42,7 @@ namespace HorseRace14
             }
 
             app.UseCors(
-                options => options.WithOrigins("http://localhost:3000").WithOrigins("https://iaracing.azurewebsites.net/").AllowAnyMethod()
+                options => options.WithOrigins("*").AllowAnyMethod()
             );
 
             app.UseHttpsRedirection();
