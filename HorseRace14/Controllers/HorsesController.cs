@@ -87,6 +87,9 @@ namespace HorseRace14.Controllers
                 case "leGrosRPG":
                     CallLeGrosRPG();
                     break;
+                case "benefitSummary":
+                    CallBenefitSummary();
+                    break;
 
                 default:
                     CallRandomMethod();
@@ -95,6 +98,19 @@ namespace HorseRace14.Controllers
 
             return Ok();
         }
+
+        [HttpPut("{horseId}/position")]
+        public IActionResult UpdatePosition(int gameId, int horseId, [FromBody] Position position)
+        {
+
+            var game = StaticDictionnaryStorage.GetData<Game>(gameId);
+            var horse = game.Horses.First(h => h.HorseId == horseId);
+            horse.Position = position;
+            StaticDictionnaryStorage.SaveData(gameId, game);
+
+            return Ok();
+        }
+
 
         private void CallRandomMethod()
         {
@@ -117,12 +133,41 @@ namespace HorseRace14.Controllers
 
         private void CallFiveLastClaims()
         {
-            throw new System.NotImplementedException();
+            var apiClient = new ApiClient("http://hc.fnct.webservice.ia.iafg.net:50080/HCMWPN30");
+            var urlSegments = ApiClient.CreateParameterCollection("contractId", "0000023551-0000000065-00102");
+
+            var queryParameters = new ApiClientParameterCollection();
+            queryParameters.Add("fromDate", "2018-12-16");
+            queryParameters.Add("start_index", "2");
+            queryParameters.Add("number_to_fetch", "5");
+            queryParameters.Add("include_details", "true");
+
+            var response = apiClient.Get<dynamic>("v2/membercontracts/{contractId}/claims/search", urlSegments, queryParameters);
+            return;
         }
 
         private void CallProviderSearch()
         {
-            
+            var apiClient = new ApiClient("http://hc.fnct.webservice.ia.iafg.net:50080/HCMWPN37");
+
+            var queryParameters = new ApiClientParameterCollection();
+            queryParameters.Add("name", "tremblay");
+            queryParameters.Add("specialty_id", "12");
+            queryParameters.Add("province_code", "QC");
+
+            var response = apiClient.Get<dynamic>("v1/providers", null, queryParameters);
+            return;
+        }
+
+
+        private void CallBenefitSummary()
+        {
+            var headers = ApiClient.CreateParameterCollection("CSP-Session-Pref", "WESessionHttpRedirection=silo4");
+
+            var apiClient = new ApiClient("http://wa.fnct.webui.ia.iafg.net/webadmin", headers);
+
+            var response = apiClient.Get<dynamic>("v2/api/benefitSummary?contractId=0000028905-0000001933-00001&userId=LIDCOR");
+            return;
         }
     }
 }

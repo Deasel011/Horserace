@@ -4,5 +4,6 @@
     {
         public int HorseId { get; set; }
         public string Name { get; set; }
+        public Position Position { get; set; }
     }
 }
