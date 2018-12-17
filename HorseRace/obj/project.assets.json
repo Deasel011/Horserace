@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "HorseRaceApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "compile": {
+          "bin/placeholder/HorseRaceApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HorseRaceApi.dll": {}
+        }
       }
     }
   },
@@ -520,10 +530,11 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "TT+QCi9LcxGTjBssH7S7n5+8DVcwfG4DYgXX7Dk7+BfZ4oVHj8Q0CbYk9glzAlHLsSt3bYzol+fOdra2iu6GOw==",
+      "sha512": "aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -679,32 +690,37 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "HorseRaceApi/1.0.0": {
+      "type": "project",
+      "path": "../HorseRaceApi/HorseRaceApi.csproj",
+      "msbuildProject": "../HorseRaceApi/HorseRaceApi.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "D:\\gitRepos\\others\\Horserace\\HorseRaceApi\\HorseRaceApi.csproj",
+      "HorseRaceApi >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lidcor\\.nuget\\packages\\": {},
+    "C:\\Users\\Philippedesp08089209\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\gitRepos\\others\\Horserace\\HorseRace\\HorseRace.csproj",
+      "projectUniqueName": "C:\\Users\\Philippedesp08089209\\Source\\Repos\\Horserace\\HorseRace\\HorseRace.csproj",
       "projectName": "HorseRace",
-      "projectPath": "D:\\gitRepos\\others\\Horserace\\HorseRace\\HorseRace.csproj",
-      "packagesPath": "C:\\Users\\lidcor\\.nuget\\packages\\",
-      "outputPath": "D:\\gitRepos\\others\\Horserace\\HorseRace\\obj\\",
+      "projectPath": "C:\\Users\\Philippedesp08089209\\Source\\Repos\\Horserace\\HorseRace\\HorseRace.csproj",
+      "packagesPath": "C:\\Users\\Philippedesp08089209\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Philippedesp08089209\\Source\\Repos\\Horserace\\HorseRace\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\lidcor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Philippedesp08089209\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -717,8 +733,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\gitRepos\\others\\Horserace\\HorseRaceApi\\HorseRaceApi.csproj": {
-              "projectPath": "D:\\gitRepos\\others\\Horserace\\HorseRaceApi\\HorseRaceApi.csproj"
+            "C:\\Users\\Philippedesp08089209\\Source\\Repos\\Horserace\\HorseRaceApi\\HorseRaceApi.csproj": {
+              "projectPath": "C:\\Users\\Philippedesp08089209\\Source\\Repos\\Horserace\\HorseRaceApi\\HorseRaceApi.csproj"
             }
           }
         }
@@ -745,16 +761,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'D:\\gitRepos\\others\\Horserace\\HorseRaceApi\\HorseRaceApi.csproj'. The project file may be invalid or missing targets required for restore.",
-      "libraryId": "D:\\gitRepos\\others\\Horserace\\HorseRaceApi\\HorseRaceApi.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
-      ]
-    }
-  ]
+  }
 }
