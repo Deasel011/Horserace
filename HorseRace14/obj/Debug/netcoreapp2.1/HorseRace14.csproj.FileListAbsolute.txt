@@ -17,7 +17,6 @@ C:\Users\Philippedesp08089209\Source\Repos\Horserace\HorseRace14\bin\Debug\netco
 C:\Users\Philippedesp08089209\Source\Repos\Horserace\HorseRace14\bin\Debug\netcoreapp2.1\HorseRace14.runtimeconfig.dev.json
 C:\Users\Philippedesp08089209\Source\Repos\Horserace\HorseRace14\bin\Debug\netcoreapp2.1\HorseRace14.dll
 C:\Users\Philippedesp08089209\Source\Repos\Horserace\HorseRace14\bin\Debug\netcoreapp2.1\HorseRace14.pdb
-C:\Users\Philippedesp08089209\Source\Repos\Horserace\HorseRace14\obj\Debug\netcoreapp2.1\HorseRace14.csprojAssemblyReference.cache
 C:\Users\Philippedesp08089209\Source\Repos\Horserace\HorseRace14\obj\Debug\netcoreapp2.1\HorseRace14.csproj.CoreCompileInputs.cache
 C:\Users\Philippedesp08089209\Source\Repos\Horserace\HorseRace14\obj\Debug\netcoreapp2.1\HorseRace14.RazorAssemblyInfo.cache
 C:\Users\Philippedesp08089209\Source\Repos\Horserace\HorseRace14\obj\Debug\netcoreapp2.1\HorseRace14.RazorAssemblyInfo.cs

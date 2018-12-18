@@ -35,7 +35,7 @@ namespace HorseRace14
             }
 
             app.UseCors(
-                options => options.WithOrigins("*").AllowAnyMethod()
+                options => options.AllowAnyOrigin().AllowAnyMethod()
             );
 
             app.UseHttpsRedirection();
