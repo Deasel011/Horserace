@@ -8,3 +8,4 @@ D:\gitRepos\others\Horserace\Gibraltar\obj\Debug\netcoreapp2.1\Gibraltar.Assembl
 D:\gitRepos\others\Horserace\Gibraltar\obj\Debug\netcoreapp2.1\Gibraltar.AssemblyInfo.cs
 D:\gitRepos\others\Horserace\Gibraltar\obj\Debug\netcoreapp2.1\Gibraltar.dll
 D:\gitRepos\others\Horserace\Gibraltar\obj\Debug\netcoreapp2.1\Gibraltar.pdb
+D:\gitRepos\others\Horserace\Gibraltar\obj\Debug\netcoreapp2.1\Gibraltar.csprojAssemblyReference.cache

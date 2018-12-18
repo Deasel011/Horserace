@@ -530,11 +530,10 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
+      "sha512": "TT+QCi9LcxGTjBssH7S7n5+8DVcwfG4DYgXX7Dk7+BfZ4oVHj8Q0CbYk9glzAlHLsSt3bYzol+fOdra2iu6GOw==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -704,23 +703,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Philippedesp08089209\\.nuget\\packages\\": {},
+    "C:\\Users\\lidcor\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Philippedesp08089209\\Source\\Repos\\Horserace\\HorseRace\\HorseRace.csproj",
+      "projectUniqueName": "D:\\gitRepos\\others\\Horserace\\HorseRace\\HorseRace.csproj",
       "projectName": "HorseRace",
-      "projectPath": "C:\\Users\\Philippedesp08089209\\Source\\Repos\\Horserace\\HorseRace\\HorseRace.csproj",
-      "packagesPath": "C:\\Users\\Philippedesp08089209\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Philippedesp08089209\\Source\\Repos\\Horserace\\HorseRace\\obj\\",
+      "projectPath": "D:\\gitRepos\\others\\Horserace\\HorseRace\\HorseRace.csproj",
+      "packagesPath": "C:\\Users\\lidcor\\.nuget\\packages\\",
+      "outputPath": "D:\\gitRepos\\others\\Horserace\\HorseRace\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Philippedesp08089209\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lidcor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -733,8 +732,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Philippedesp08089209\\Source\\Repos\\Horserace\\HorseRaceApi\\HorseRaceApi.csproj": {
-              "projectPath": "C:\\Users\\Philippedesp08089209\\Source\\Repos\\Horserace\\HorseRaceApi\\HorseRaceApi.csproj"
+            "D:\\gitRepos\\others\\Horserace\\HorseRaceApi\\HorseRaceApi.csproj": {
+              "projectPath": "D:\\gitRepos\\others\\Horserace\\HorseRaceApi\\HorseRaceApi.csproj"
             }
           }
         }

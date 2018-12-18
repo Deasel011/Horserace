@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HorseRaceApiCoreEntity", "H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HorseRace14", "HorseRace14\HorseRace14.csproj", "{A6A97BEE-6960-4D6F-ACD0-009B61301588}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gibraltar", "Gibraltar\Gibraltar.csproj", "{08B4FC33-23AF-4C2B-A601-C74A2D64038E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gibraltar", "Gibraltar\Gibraltar.csproj", "{08B4FC33-23AF-4C2B-A601-C74A2D64038E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorseRace14Tests", "HorseRace14Tests\HorseRace14Tests.csproj", "{FD11A149-6DB9-4356-BCC8-CCEE88836463}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{08B4FC33-23AF-4C2B-A601-C74A2D64038E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08B4FC33-23AF-4C2B-A601-C74A2D64038E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08B4FC33-23AF-4C2B-A601-C74A2D64038E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD11A149-6DB9-4356-BCC8-CCEE88836463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD11A149-6DB9-4356-BCC8-CCEE88836463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD11A149-6DB9-4356-BCC8-CCEE88836463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD11A149-6DB9-4356-BCC8-CCEE88836463}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

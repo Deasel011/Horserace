@@ -11,3 +11,4 @@ D:\gitRepos\others\Horserace\HorseRaceApiCore\obj\Debug\netcoreapp2.1\HorseRaceA
 D:\gitRepos\others\Horserace\HorseRaceApiCore\obj\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.RazorTargetAssemblyInfo.cache
 D:\gitRepos\others\Horserace\HorseRaceApiCore\obj\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.dll
 D:\gitRepos\others\Horserace\HorseRaceApiCore\obj\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.pdb
+D:\gitRepos\others\Horserace\HorseRaceApiCore\obj\Debug\netcoreapp2.1\HorseRaceApiCoreEntity.csprojAssemblyReference.cache
