@@ -6,7 +6,7 @@ namespace HorseRace14.Models
     public class Game
     {
         /// <summary>
-        /// The game id
+        /// Game id
         /// </summary>
         public int GameId { get; set; }
 
@@ -14,7 +14,7 @@ namespace HorseRace14.Models
         private List<Horse> _horses;
 
         /// <summary>
-        /// The game's horses
+        /// Game horses
         /// </summary>
         public List<Horse> Horses
         {

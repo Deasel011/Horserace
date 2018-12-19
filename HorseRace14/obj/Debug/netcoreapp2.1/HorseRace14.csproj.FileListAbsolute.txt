@@ -27,4 +27,3 @@ D:\gitRepos\others\Horserace\HorseRace14\obj\Debug\netcoreapp2.1\HorseRace14.dll
 D:\gitRepos\others\Horserace\HorseRace14\obj\Debug\netcoreapp2.1\HorseRace14.pdb
 D:\gitRepos\others\Horserace\HorseRace14\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 D:\gitRepos\others\Horserace\HorseRace14\bin\Debug\netcoreapp2.1\HorseRace14.xml
-D:\gitRepos\others\Horserace\HorseRace14\obj\Debug\netcoreapp2.1\HorseRace14.csprojAssemblyReference.cache

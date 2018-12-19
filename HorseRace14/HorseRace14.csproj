@@ -6,7 +6,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>D:\gitRepos\others\Horserace\HorseRace14\HorseRace14.xml</DocumentationFile>
+    <DocumentationFile>HorseRace14.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>HorseRace14.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

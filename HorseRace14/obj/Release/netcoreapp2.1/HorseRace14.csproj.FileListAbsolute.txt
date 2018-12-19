@@ -28,3 +28,4 @@ D:\gitRepos\others\Horserace\HorseRace14\obj\Release\netcoreapp2.1\HorseRace14.A
 D:\gitRepos\others\Horserace\HorseRace14\obj\Release\netcoreapp2.1\HorseRace14.RazorTargetAssemblyInfo.cache
 D:\gitRepos\others\Horserace\HorseRace14\obj\Release\netcoreapp2.1\HorseRace14.dll
 D:\gitRepos\others\Horserace\HorseRace14\obj\Release\netcoreapp2.1\HorseRace14.pdb
+D:\gitRepos\others\Horserace\HorseRace14\bin\Release\netcoreapp2.1\HorseRace14.xml

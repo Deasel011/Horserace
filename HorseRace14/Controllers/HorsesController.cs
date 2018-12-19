@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace HorseRace14.Controllers
 {
+    /// <summary>
+    /// Horses apis
+    /// </summary>
     [Route("games/{gameId}/horses")]
     [ApiController]
     public class HorsesController : ControllerBase
@@ -130,6 +133,19 @@ namespace HorseRace14.Controllers
 
             var game = StaticDictionnaryStorage.GetData<Game>(gameId);
             var horse = game.Horses.First(h => h.HorseId == horseId);
+
+            if (horse.StartTimeInMillis == 0)
+            {
+                horse.StartTimeInMillis = position.TimeInMillis;
+            }
+
+            if (position.Finished)
+            {
+                horse.EndTimeInMillis = position.TimeInMillis;
+                horse.TotalTimeInMillis = (horse.EndTimeInMillis - horse.StartTimeInMillis);
+            }
+
+
             horse.Position = position;
             StaticDictionnaryStorage.SaveData(gameId, game);
 

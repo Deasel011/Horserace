@@ -15,6 +15,11 @@
             </summary>
             <param name="gameId">The unique id for a specific game</param>
         </member>
+        <member name="T:HorseRace14.Controllers.HorsesController">
+            <summary>
+            Horses apis
+            </summary>
+        </member>
         <member name="M:HorseRace14.Controllers.HorsesController.PostHorse(System.Int32,HorseRace14.Models.Horse)">
             <summary>
             Add a horse to the game
@@ -52,12 +57,47 @@
         </member>
         <member name="P:HorseRace14.Models.Game.GameId">
             <summary>
-            The game id
+            Game id
             </summary>
         </member>
         <member name="P:HorseRace14.Models.Game.Horses">
             <summary>
-            The game's horses
+            Game horses
+            </summary>
+        </member>
+        <member name="T:HorseRace14.Models.Horse">
+            <summary>
+            Horse
+            </summary>
+        </member>
+        <member name="P:HorseRace14.Models.Horse.HorseId">
+            <summary>
+            Horse id
+            </summary>
+        </member>
+        <member name="P:HorseRace14.Models.Horse.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:HorseRace14.Models.Horse.StartTimeInMillis">
+            <summary>
+            Start time in milliseconds
+            </summary>
+        </member>
+        <member name="P:HorseRace14.Models.Horse.EndTimeInMillis">
+            <summary>
+            End time in milliseconds
+            </summary>
+        </member>
+        <member name="P:HorseRace14.Models.Horse.TotalTimeInMillis">
+            <summary>
+            Total time in milliseconds
+            </summary>
+        </member>
+        <member name="P:HorseRace14.Models.Horse.Position">
+            <summary>
+            Current position
             </summary>
         </member>
     </members>
