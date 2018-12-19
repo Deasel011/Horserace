@@ -55,6 +55,11 @@
             <param name="horseId">The unique id for a specific horse</param>
             <param name="position">The new position of the horse</param>
         </member>
+        <member name="T:HorseRace14.Models.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
         <member name="P:HorseRace14.Models.Game.GameId">
             <summary>
             Game id

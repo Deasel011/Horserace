@@ -32,6 +32,12 @@ namespace HorseRace14.Controllers
 
             var game = StaticDictionnaryStorage.GetData<Game>(gameId);
             horse.HorseId = _horseIdGenerator++;
+
+            if (horse.Position == null)
+            {
+                horse.Position = new Position();
+            }
+
             game.Horses.Add(horse);
             StaticDictionnaryStorage.SaveData(gameId, game);
 
@@ -53,8 +59,9 @@ namespace HorseRace14.Controllers
             }
 
             var game = StaticDictionnaryStorage.GetData<Game>(gameId);
+            var sortedHorses = HorseSorter.Sort(game.Horses);
 
-            return Ok(game.Horses);
+            return Ok(sortedHorses);
         }
 
 

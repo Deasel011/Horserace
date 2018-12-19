@@ -48,6 +48,8 @@ namespace HorseRace14.Controllers
             }
 
             var game = StaticDictionnaryStorage.GetData<Game>(gameId);
+            var sortedHorses = HorseSorter.Sort(game.Horses);
+            game.Horses = sortedHorses;
 
             return Ok(game);
         }
