@@ -10,7 +10,7 @@ namespace HorseRace14.Controllers
     public class GamesController : ControllerBase
     {
         /// <summary>
-        /// Creates a new game
+        /// Create a new game
         /// </summary>
         [HttpPost]
         [ProducesResponseType(200)]
@@ -34,7 +34,7 @@ namespace HorseRace14.Controllers
         }
 
         /// <summary>
-        /// Gets a specific game
+        /// Get a specific game
         /// </summary>
         /// <param name="gameId">The unique id for a specific game</param>
         [HttpGet("{gameId}")]

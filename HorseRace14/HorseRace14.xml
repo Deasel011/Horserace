@@ -6,14 +6,59 @@
     <members>
         <member name="M:HorseRace14.Controllers.GamesController.PostGame">
             <summary>
-            Creates a new game
+            Create a new game
             </summary>
         </member>
         <member name="M:HorseRace14.Controllers.GamesController.GetGame(System.Int32)">
             <summary>
-            Gets a specific game
+            Get a specific game
             </summary>
             <param name="gameId">The unique id for a specific game</param>
+        </member>
+        <member name="M:HorseRace14.Controllers.HorsesController.PostHorse(System.Int32,HorseRace14.Models.Horse)">
+            <summary>
+            Add a horse to the game
+            </summary>
+            <param name="gameId">The unique id for a specific game</param>
+            <param name="horse">The horse to add to the game</param>
+        </member>
+        <member name="M:HorseRace14.Controllers.HorsesController.GetHorses(System.Int32)">
+            <summary>
+            Get all the horses of the game
+            </summary>
+            <param name="gameId">The unique id for a specific game</param>
+        </member>
+        <member name="M:HorseRace14.Controllers.HorsesController.DeleteHorse(System.Int32,System.Int32)">
+            <summary>
+            Remove a horse from the game
+            </summary>
+            <param name="gameId">The unique id for a specific game</param>
+            <param name="horseId">The unique id for a specific horse</param>
+        </member>
+        <member name="M:HorseRace14.Controllers.HorsesController.DoHorseStep(System.Int32,System.Int32)">
+            <summary>
+            Does a horse step
+            </summary>
+            <param name="gameId">The unique id for a specific game</param>
+            <param name="horseId">The unique id for a specific horse</param>
+        </member>
+        <member name="M:HorseRace14.Controllers.HorsesController.UpdatePosition(System.Int32,System.Int32,HorseRace14.Models.Position)">
+            <summary>
+            Update a horse's position
+            </summary>
+            <param name="gameId">The unique id for a specific game</param>
+            <param name="horseId">The unique id for a specific horse</param>
+            <param name="position">The new position of the horse</param>
+        </member>
+        <member name="P:HorseRace14.Models.Game.GameId">
+            <summary>
+            The game id
+            </summary>
+        </member>
+        <member name="P:HorseRace14.Models.Game.Horses">
+            <summary>
+            The game's horses
+            </summary>
         </member>
     </members>
 </doc>

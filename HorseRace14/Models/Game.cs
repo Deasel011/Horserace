@@ -5,10 +5,17 @@ namespace HorseRace14.Models
 {
     public class Game
     {
+        /// <summary>
+        /// The game id
+        /// </summary>
         public int GameId { get; set; }
 
 
         private List<Horse> _horses;
+
+        /// <summary>
+        /// The game's horses
+        /// </summary>
         public List<Horse> Horses
         {
             get => _horses.OrderByDescending(h => h.Position.Steps).ThenBy(h => h.Position.TimeInMillis).Select(

@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using HorseRace14.Models;
 using HorseRace14.Shit;
 using Microsoft.AspNetCore.Mvc;
@@ -11,7 +12,14 @@ namespace HorseRace14.Controllers
     {
         private static int _horseIdGenerator = 1;
 
+        /// <summary>
+        /// Add a horse to the game
+        /// </summary>
+        /// <param name="gameId">The unique id for a specific game</param>
+        /// <param name="horse">The horse to add to the game</param>
         [HttpPost]
+        [ProducesResponseType(200)]
+        [Produces(typeof(Horse))]
         public IActionResult PostHorse(int gameId, [FromBody] Horse horse)
         {
             if (!ModelState.IsValid)
@@ -27,7 +35,13 @@ namespace HorseRace14.Controllers
             return Ok(horse);
         }
 
+        /// <summary>
+        /// Get all the horses of the game
+        /// </summary>
+        /// <param name="gameId">The unique id for a specific game</param>
         [HttpGet]
+        [ProducesResponseType(200)]
+        [Produces(typeof(List<Horse>))]
         public IActionResult GetHorses(int gameId)
         {
             if (!ModelState.IsValid)
@@ -41,7 +55,13 @@ namespace HorseRace14.Controllers
         }
 
 
+        /// <summary>
+        /// Remove a horse from the game
+        /// </summary>
+        /// <param name="gameId">The unique id for a specific game</param>
+        /// <param name="horseId">The unique id for a specific horse</param>
         [HttpDelete("{horseId}")]
+        [ProducesResponseType(204)]
         public IActionResult DeleteHorse(int gameId, int horseId)
         {
             if (!ModelState.IsValid)
@@ -55,7 +75,14 @@ namespace HorseRace14.Controllers
             return NoContent();
         }
 
+
+        /// <summary>
+        /// Does a horse step
+        /// </summary>
+        /// <param name="gameId">The unique id for a specific game</param>
+        /// <param name="horseId">The unique id for a specific horse</param>
         [HttpPost("{horseId}/step")]
+        [ProducesResponseType(200)]
         public IActionResult DoHorseStep(int gameId, int horseId)
         {
             if (!ModelState.IsValid)
@@ -89,7 +116,15 @@ namespace HorseRace14.Controllers
             return Ok();
         }
 
+
+        /// <summary>
+        /// Update a horse's position
+        /// </summary>
+        /// <param name="gameId">The unique id for a specific game</param>
+        /// <param name="horseId">The unique id for a specific horse</param>
+        /// <param name="position">The new position of the horse</param>
         [HttpPut("{horseId}/position")]
+        [ProducesResponseType(200)]
         public IActionResult UpdatePosition(int gameId, int horseId, [FromBody] Position position)
         {
 
