@@ -40,6 +40,7 @@ namespace HorseRace14.Controllers
         [HttpGet("{gameId}")]
         [ProducesResponseType(200)]
         [Produces(typeof(Game))]
+        [ResponseCache(Duration = 1)]
         public IActionResult GetGame(int gameId)
         {
             if (!ModelState.IsValid)
