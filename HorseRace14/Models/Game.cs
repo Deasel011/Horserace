@@ -1,10 +1,30 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace HorseRace14.Models
 {
     public class Game
     {
         public int GameId { get; set; }
-        public List<Horse> Horses { get; set; }
+
+
+        private List<Horse> _horses;
+        public List<Horse> Horses
+        {
+            get => _horses.OrderByDescending(h => h.Position.Steps).ThenBy(h => h.Position.TimeInMillis).Select(
+                (r, i) => new Horse
+                {
+                    HorseId = r.HorseId,
+                    Name = r.Name,
+                    Position = new Position
+                    {
+                        Finished = r.Position.Finished,
+                        Steps = r.Position.Steps,
+                        TimeInMillis = r.Position.TimeInMillis,
+                        Rank = i + 1
+                    }
+                }).ToList();
+            set => _horses = value;
+        }
     }
 }

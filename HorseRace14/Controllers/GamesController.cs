@@ -9,7 +9,12 @@ namespace HorseRace14.Controllers
     [ApiController]
     public class GamesController : ControllerBase
     {
+        /// <summary>
+        /// Creates a new game
+        /// </summary>
         [HttpPost]
+        [ProducesResponseType(200)]
+        [Produces(typeof(Game))]
         public IActionResult PostGame()
         {
             if (!ModelState.IsValid)
@@ -28,7 +33,13 @@ namespace HorseRace14.Controllers
             return Ok(game);
         }
 
+        /// <summary>
+        /// Gets a specific game
+        /// </summary>
+        /// <param name="gameId">The unique id for a specific game</param>
         [HttpGet("{gameId}")]
+        [ProducesResponseType(200)]
+        [Produces(typeof(Game))]
         public IActionResult GetGame(int gameId)
         {
             if (!ModelState.IsValid)

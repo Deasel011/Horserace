@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HorseRace14</name>
+    </assembly>
+    <members>
+        <member name="M:HorseRace14.Controllers.GamesController.PostGame">
+            <summary>
+            Creates a new game
+            </summary>
+        </member>
+        <member name="M:HorseRace14.Controllers.GamesController.GetGame(System.Int32)">
+            <summary>
+            Gets a specific game
+            </summary>
+            <param name="gameId">The unique id for a specific game</param>
+        </member>
+    </members>
+</doc>
